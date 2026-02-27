@@ -237,7 +237,7 @@ jQuery(document).ready(function($) {
 			margin: 0,
 			smartSpeed: 1500,
 	    autoplay: true,
-		autoplayTimeout : 10000,
+		autoplayTimeout : 20000,
 	    pauseOnHover: false,
 		nav:true,
 		navText : ["< назад","далее >"]
@@ -251,6 +251,7 @@ jQuery(document).ready(function($) {
 	    margin: 0,
 	    smartSpeed: 1500,
 	    autoplay: true,
+		autoplayTimeout : 10000,
 	    pauseOnHover: false,
 	    dots: true,
 	    nav: true,
