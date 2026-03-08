@@ -242,6 +242,22 @@ jQuery(document).ready(function($) {
 		nav:true,
 		navText : ["< назад","далее >"]
 		})
+		$('.owl-4').owlCarousel({
+			animateOut: 'fadeOut',
+			touchDrag:true,
+             mouseDrag:true,
+			center: true,
+			items: 1,
+			loop: true,
+			margin: 0,
+			smartSpeed: 1500,
+	    autoplay: true,
+		autoplayTimeout : 50000,
+	    pauseOnHover: false,
+		nav:true,
+		navText : ["< назад","далее >"]
+		})
+		
 
 		$('.slide-one-item').owlCarousel({
 	    center: false,
